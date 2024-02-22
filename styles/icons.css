@@ -1,0 +1,25 @@
+.home-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.menu{
+  height: 25px;
+  margin-left: 23px;
+  margin-right: 23px;
+}
+.youtube-logo{
+  height: 65px;
+}
+.tsearch{
+  margin-top: 2px;
+  height: 29px;
+  width: 29;
+  color: rgba(255, 255, 255, 0.511);
+
+}
+.vsearch{
+  height: 29px;
+  width: 29px;
+  color: rgba(255, 255, 255, 0.511);
+}

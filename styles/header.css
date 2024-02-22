@@ -1,0 +1,59 @@
+.search-me{
+  color: rgba(255, 255, 255, 0.715);
+  background-color: rgba(0, 0, 0, 0.769);
+  height: 39px;
+  width: 500px;
+  border: 1px solid rgba(172, 168, 168, 0.394);
+  border-top-left-radius: 17px;
+  border-bottom-left-radius: 17px;
+  box-shadow: inset 1px 1px 3px rgba(145, 141, 141, 0.5);
+  font-size: 16px;
+  padding-left: 7px;
+  margin-right: 1px;
+}
+.search-me:focus{
+  outline: 0.2px solid rgba(0, 30, 255, 0.677);
+}
+.header{
+  height: 69px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ border: 1px solid rgba(13, 12, 12, 0.728);
+ box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.085);
+}
+.home-section{
+  width: 180px;
+}
+.search-section{
+ flex: 1;
+ min-width: 600px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+}
+.account-section{
+  width: 300px;
+}
+.text-search{
+  height: 43px;
+  width: 60px;
+  border: 1px solid rgba(182, 180, 180, 0.375);
+  margin-left: 0;
+  margin-right: 6px;
+  background-color: rgba(0, 0, 0, 0.328);
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
+}
+
+.voice-search{
+  height: 39px;
+  width: 39px;
+  border-radius: 18.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:rgba(61, 59, 59, 0.276);
+  border: none;
+}

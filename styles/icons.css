@@ -10,11 +10,12 @@
 }
 .youtube-logo{
   height: 65px;
+  opacity: 1;
 }
 .tsearch{
   margin-top: 2px;
   height: 29px;
-  width: 29;
+  width: 29px;
   color: rgba(255, 255, 255, 0.511);
 
 }
@@ -22,4 +23,12 @@
   height: 29px;
   width: 29px;
   color: rgba(255, 255, 255, 0.511);
+}
+.upload, .apps, .notification, .channel{
+  width: 29px;
+  height: 29px;
+}
+.channel{
+  opacity: 1;
+  border-radius: 14px;
 }
